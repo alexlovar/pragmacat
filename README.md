@@ -17,8 +17,6 @@ Details Screen
 
 Flutter
 Riverpod
-Dio
-GoRouter
 CachedNetworkImage
 JsonSerializable
 
