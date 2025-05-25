@@ -26,21 +26,20 @@ JsonSerializable
 ## Project Structure
 
 lib/
+├── config/
 ├── core/
-│   └── utils/
-├── data/
-│   ├── models/
-│   └── services/
-├── domain/
-│   └── repositories/
-├── presentation/
-│   ├── views/
-│   │   ├── splash/
-│   │   ├── home/
-│   │   └── details/
-│   └── viewmodels/
-├── routes/
-└── widgets/
+
+│   └── api/
+    ├── models/
+│   └── providers/
+
+├── features/
+
+│   └── details/
+│   └── home/
+│   └── splash/
+
+└── utils/
 
 ## Features
 
